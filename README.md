@@ -15,9 +15,9 @@
 const msCanvas = new MSCanvas("ms-canvas", {
   // 基本配置
   gridSize: 25, // 设置每个格子的边长（像素）
-  rowNum: 15, // 设置行数（纵向格子数量）
-  colNum: 20, // 设置列数（横向格子数量）
-  mineNum: 20, // 设置布置的地雷数
+  rowNum: 9, // 设置行数（纵向格子数量）
+  colNum: 9, // 设置列数（横向格子数量）
+  mineNum: 10, // 设置布置的地雷数
   images: [], // 设置图片资源
 
   // 绑定事件处理函数
